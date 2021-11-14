@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Bunny : Short Videos app" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.js"></script>
+  </head>
+  
+
+  
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Facebook Share Response -->
+    <div id="fb-root"></div>
+    <!-- Facebook Share Response End -->
+
+    <div id="root"></div>
+    
+    <!-- Facebook Share Response -->
+    <!-- appId            : 299516251645983, -->
+    <script>
+      
+      window.fbAsyncInit = function() {
+      FB.init({
+       appId            : 507492390316757,
+       autoLogAppEvents : true,
+       xfbml            : true,
+       version          : 'v2.9'
+     });
+     FB.AppEvents.logPageView();
+     };
+     
+     (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+      <!-- Facebook Share Response End -->
+
+      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player id="lottie-player" src="https://assets6.lottiefiles.com/packages/lf20_pmcbvatd.json" background="transparent" speed="1" style="width: 100%; height: 100vh;display:none" loop autoplay>
+      </lottie-player> -->
+      <!-- Responsible for Page loader -->
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player style="height: 100vh;
+      width: 300px;
+      position :absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);" id="lottie-player" src="https://assets6.lottiefiles.com/packages/lf20_ypxs3di4.json" background="transparent" speed="1" loop autoplay>
+      </lottie-player>
+      <!-- Responsible for Page loader END -->
+
+
+      <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player id="lottie-player" src="https://assets3.lottiefiles.com/packages/lf20_mzqp5pqq.json" background="transparent" speed="1" style="width: 100%; height: 100vh;display:none" loop autoplay>
+      </lottie-player> -->
+  </body>
+ 
+</html>
